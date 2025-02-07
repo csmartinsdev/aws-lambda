@@ -11,9 +11,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import helloworld.req.LoginRequest;
 import helloworld.response.LoginResponse;
 
-/**
- * Handler for requests to Lambda function.
- */
 public class App implements RequestHandler<APIGatewayProxyRequestEvent, APIGatewayProxyResponseEvent> {
     private static final ObjectMapper mapper;
     static {
